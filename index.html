@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionnaire</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Questionnaire</h1>
+        <form id="questionnaireForm">
+            <div class="question">
+                <label>1. What is the capital of France?</label>
+                <div class="options">
+                    <input type="radio" id="q1a" name="q1" value="a">
+                    <label for="q1a">A) Paris</label><br>
+                    <input type="radio" id="q1b" name="q1" value="b">
+                    <label for="q1b">B) Madrid</label><br>
+                    <input type="radio" id="q1c" name="q1" value="c">
+                    <label for="q1c">C) Rome</label><br>
+                    <input type="radio" id="q1d" name="q1" value="d">
+                    <label for="q1d">D) Berlin</label><br>
+                </div>
+            </div>
+
+            <div class="question">
+                <label>2. Which planet is known as the Red Planet?</label>
+                <div class="options">
+                    <input type="radio" id="q2a" name="q2" value="a">
+                    <label for="q2a">A) Earth</label><br>
+                    <input type="radio" id="q2b" name="q2" value="b">
+                    <label for="q2b">B) Mars</label><br>
+                    <input type="radio" id="q2c" name="q2" value="c">
+                    <label for="q2c">C) Jupiter</label><br>
+                    <input type="radio" id="q2d" name="q2" value="d">
+                    <label for="q2d">D) Saturn</label><br>
+                </div>
+            </div>
+
+            <div class="question">
+                <label>3. What is the largest ocean on Earth?</label>
+                <div class="options">
+                    <input type="radio" id="q3a" name="q3" value="a">
+                    <label for="q3a">A) Atlantic Ocean</label><br>
+                    <input type="radio" id="q3b" name="q3" value="b">
+                    <label for="q3b">B) Indian Ocean</label><br>
+                    <input type="radio" id="q3c" name="q3" value="c">
+                    <label for="q3c">C) Arctic Ocean</label><br>
+                    <input type="radio" id="q3d" name="q3" value="d">
+                    <label for="q3d">D) Pacific Ocean</label><br>
+                </div>
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
